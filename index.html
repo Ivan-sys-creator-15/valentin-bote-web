@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentín Bote · Psicólogo</title>
+  <meta name="description" content="Valentín Bote, psicólogo. Acompañamiento psicológico cálido, humano y sin algoritmos: terapia individual, ansiedad, autoestima y bienestar emocional. Online y presencial." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Navegación ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="nav__logo">Valentín&nbsp;Bote<span>·</span></a>
+      <nav class="nav__links" id="navLinks" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Cómo funciona</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto" class="nav__cta">Pedir cita gratuita</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="pill">Sin algoritmos, con criterio</span>
+          <h1>Terapia que te entiende, a tu ritmo</h1>
+          <p class="lead">
+            Soy Valentín Bote, psicólogo. Te acompaño en un espacio cálido y sin
+            juicios para gestionar la ansiedad, recuperar la calma y reconectar
+            con lo que de verdad te importa.
+          </p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--primary">Pedir orientación gratuita</a>
+            <a href="#proceso" class="btn btn--ghost">Ver cómo funciona</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust__stars" aria-label="Valoración 5 sobre 5 en Google">
+              ★★★★★
+            </div>
+            <p class="trust__text"><strong>4,9/5</strong> · +120 reseñas en Google</p>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__photo" role="img" aria-label="Retrato de Valentín Bote, psicólogo"></div>
+          <div class="hero__card hero__card--top">
+            <span class="hero__card-icon">☾</span>
+            <span>Primera sesión<br /><strong>sin compromiso</strong></span>
+          </div>
+          <div class="hero__card hero__card--bottom">
+            <span class="hero__card-icon">◇</span>
+            <span>Online y<br /><strong>presencial</strong></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Barra de confianza ===== -->
+    <section class="logos">
+      <div class="container">
+        <p class="logos__label">Mencionado en</p>
+        <div class="logos__row" aria-label="Medios (provisional)">
+          <span>elMundo</span>
+          <span>Psicología&nbsp;Hoy</span>
+          <span>Cadena&nbsp;SER</span>
+          <span>El&nbsp;País</span>
+          <span>Bienestar&nbsp;Mag</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Valores ===== -->
+    <section class="values">
+      <div class="container values__grid">
+        <div class="value">
+          <span class="value__icon" aria-hidden="true">☾</span>
+          <h3>Sin prisa</h3>
+          <p>Cada proceso tiene su ritmo. Aquí no hay presión, solo tu tiempo.</p>
+        </div>
+        <div class="value">
+          <span class="value__icon" aria-hidden="true">❀</span>
+          <h3>Confidencial</h3>
+          <p>Un entorno seguro y privado donde expresarte con total libertad.</p>
+        </div>
+        <div class="value">
+          <span class="value__icon" aria-hidden="true">◇</span>
+          <h3>Cercano</h3>
+          <p>Una relación de confianza basada en la escucha y el respeto.</p>
+        </div>
+        <div class="value">
+          <span class="value__icon" aria-hidden="true">✦</span>
+          <h3>Con criterio</h3>
+          <p>Terapia basada en evidencia y adaptada a lo que tú necesitas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Sobre mí ===== -->
+    <section class="about section" id="sobre-mi">
+      <div class="container about__inner">
+        <div class="about__media">
+          <div class="about__photo" role="img" aria-label="Foto de Valentín Bote, psicólogo"></div>
+        </div>
+        <div class="about__text">
+          <span class="eyebrow">Sobre mí</span>
+          <h2>Hola, soy Valentín</h2>
+          <p>
+            Soy psicólogo general sanitario y llevo más de una década acompañando
+            a personas que atraviesan momentos de ansiedad, cambios vitales o
+            simplemente quieren entenderse mejor.
+          </p>
+          <p>
+            Mi enfoque combina la terapia cognitivo-conductual con la atención
+            plena, siempre desde la calidez y el respeto por tu historia. Creo en
+            una terapia práctica, humana y sin algoritmos: tú y yo, a tu ritmo.
+          </p>
+          <ul class="about__creds">
+            <li>Colegiado nº M-00000</li>
+            <li>Máster en Psicología Clínica</li>
+            <li>Especialista en ansiedad y autoestima</li>
+            <li>+1.000 sesiones acompañadas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Servicios ===== -->
+    <section class="services section" id="servicios">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Servicios</span>
+          <h2>Cómo puedo acompañarte</h2>
+          <p class="section__sub">
+            Sesiones adaptadas a tu momento vital, disponibles online y presencial.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">◐</span>
+            <h3>Ansiedad y estrés</h3>
+            <p>Herramientas para calmar la mente, gestionar la preocupación y recuperar el equilibrio en tu día a día.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">♡</span>
+            <h3>Autoestima</h3>
+            <p>Un camino para reconciliarte contigo, poner límites sanos y hablarte con más amabilidad.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">❋</span>
+            <h3>Duelo y cambios</h3>
+            <p>Acompañamiento en pérdidas, rupturas y transiciones vitales, respetando cada fase.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">◈</span>
+            <h3>Terapia individual</h3>
+            <p>Un espacio propio para explorar, comprender y transformar aquello que te bloquea.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Proceso ===== -->
+    <section class="process section" id="proceso">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Cómo funciona</span>
+          <h2>Empezar es muy sencillo</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3>Primer contacto</h3>
+            <p>Escríbeme y agendamos una orientación gratuita, sin compromiso.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3>Conocernos</h3>
+            <p>Hablamos de lo que te trae aquí y definimos objetivos realistas.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3>Acompañamiento</h3>
+            <p>Trabajamos sesión a sesión, a tu ritmo, con herramientas prácticas.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">04</span>
+            <h3>Autonomía</h3>
+            <p>El objetivo: que salgas con recursos propios para sostenerte tú mismo.</p>
+          </li>
+        </ol>
+        <div class="process__cta">
+          <a href="#contacto" class="btn btn--primary">Reservar orientación gratuita</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonios ===== -->
+    <section class="testimonials section" id="testimonios">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Testimonios</span>
+          <h2>Personas que ya dieron el paso</h2>
+        </div>
+        <div class="carousel" id="reviews">
+          <button class="carousel__arrow carousel__arrow--prev" aria-label="Reseña anterior">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+
+          <div class="carousel__viewport">
+            <div class="carousel__track" id="reviewsTrack">
+              <figure class="quote-card">
+                <div class="quote-card__stars">★★★★★</div>
+                <blockquote>Encontré un espacio en el que por fin pude respirar. Valentín me ayudó a entender lo que sentía y a volver a confiar en mí.</blockquote>
+                <figcaption>
+                  <span class="avatar" aria-hidden="true">L</span>
+                  <span>Laura M.<small>Terapia de ansiedad</small></span>
+                </figcaption>
+              </figure>
+              <figure class="quote-card">
+                <div class="quote-card__stars">★★★★★</div>
+                <blockquote>Llegué agotado y sin rumbo. Hoy tengo herramientas reales para mi día a día. Cercano y profesional desde la primera sesión.</blockquote>
+                <figcaption>
+                  <span class="avatar" aria-hidden="true">D</span>
+                  <span>David R.<small>Gestión del estrés</small></span>
+                </figcaption>
+              </figure>
+              <figure class="quote-card">
+                <div class="quote-card__stars">★★★★★</div>
+                <blockquote>Una terapia humana, sin fórmulas hechas. Me sentí escuchada de verdad y eso lo cambió todo.</blockquote>
+                <figcaption>
+                  <span class="avatar" aria-hidden="true">C</span>
+                  <span>Carmen P.<small>Autoestima</small></span>
+                </figcaption>
+              </figure>
+              <figure class="quote-card">
+                <div class="quote-card__stars">★★★★★</div>
+                <blockquote>Después de meses dándole vueltas, por fin entendí de dónde venía mi malestar. Un trato muy cercano y sin juicios.</blockquote>
+                <figcaption>
+                  <span class="avatar" aria-hidden="true">M</span>
+                  <span>Marta S.<small>Duelo y cambios</small></span>
+                </figcaption>
+              </figure>
+              <figure class="quote-card">
+                <div class="quote-card__stars">★★★★★</div>
+                <blockquote>Valentín me dio herramientas concretas para gestionar la ansiedad en el trabajo. Noté el cambio en pocas semanas.</blockquote>
+                <figcaption>
+                  <span class="avatar" aria-hidden="true">J</span>
+                  <span>Javier T.<small>Ansiedad laboral</small></span>
+                </figcaption>
+              </figure>
+              <figure class="quote-card">
+                <div class="quote-card__stars">★★★★★</div>
+                <blockquote>Recomendable al 100%. Profesional, empático y muy claro. Salgo de cada sesión con algo útil en lo que trabajar.</blockquote>
+                <figcaption>
+                  <span class="avatar" aria-hidden="true">N</span>
+                  <span>Nuria B.<small>Autoestima</small></span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <button class="carousel__arrow carousel__arrow--next" aria-label="Reseña siguiente">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+
+          <div class="carousel__dots" id="reviewsDots" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="faq section" id="faq">
+      <div class="container faq__inner">
+        <div class="section__head faq__head">
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Resolvemos tus dudas</h2>
+        </div>
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary>¿Cuánto dura cada sesión?</summary>
+            <p>Cada sesión dura aproximadamente 50 minutos. La frecuencia la ajustamos juntos según tu proceso, normalmente semanal o quincenal.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Las sesiones son online o presenciales?</summary>
+            <p>Ambas. Puedes elegir sesiones por videollamada desde donde estés o acudir a consulta presencial en Barcelona.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿La primera sesión tiene coste?</summary>
+            <p>No. La primera toma de contacto es una orientación gratuita y sin compromiso, para conocernos y ver cómo puedo ayudarte.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Todo lo que cuente es confidencial?</summary>
+            <p>Absolutamente. Todo lo que compartas está protegido por el secreto profesional y la normativa de protección de datos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Ubicación ===== -->
+    <section class="location section" id="ubicacion">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Ubicación</span>
+          <h2>Dónde está la consulta</h2>
+          <p class="section__sub">Consulta presencial en el centro de Barcelona, bien comunicada.</p>
+        </div>
+
+        <div class="location__inner">
+          <div class="location__info">
+            <div class="location__row">
+              <span class="location__icon" aria-hidden="true">📍</span>
+              <div>
+                <h3>Dirección</h3>
+                <p>Carrer d'Exemple, 00<br />08001 Barcelona</p>
+              </div>
+            </div>
+            <div class="location__row">
+              <span class="location__icon" aria-hidden="true">🕑</span>
+              <div>
+                <h3>Horario</h3>
+                <p>Lunes a viernes · 9:00 – 20:00</p>
+              </div>
+            </div>
+            <div class="location__row">
+              <span class="location__icon" aria-hidden="true">🚇</span>
+              <div>
+                <h3>Cómo llegar</h3>
+                <p>Metro L1 / L3 y varias líneas de bus a menos de 5 min.</p>
+              </div>
+            </div>
+            <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&query=Barcelona,+Espa%C3%B1a" target="_blank" rel="noopener">Abrir en Google Maps</a>
+          </div>
+
+          <div class="location__map">
+            <span class="location__map-fallback" aria-hidden="true">📍 Barcelona</span>
+            <iframe
+              title="Mapa de la ubicación de la consulta en Barcelona"
+              src="https://www.google.com/maps?q=Barcelona%2C+Espa%C3%B1a&z=14&hl=es&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section class="contact section" id="contacto">
+      <div class="container contact__inner">
+        <div class="contact__text">
+          <span class="eyebrow">Contacto</span>
+          <h2>Da el primer paso</h2>
+          <p>
+            Escribir es a veces lo más difícil. Cuando estés listo, estaré aquí
+            para escucharte. Reserva tu orientación gratuita o resuelve cualquier duda.
+          </p>
+          <ul class="contact__list">
+            <li><span>Email</span> hola@valentinbote.es</li>
+            <li><span>Teléfono</span> +34 600 000 000</li>
+            <li><span>Modalidad</span> Online y presencial (Barcelona)</li>
+          </ul>
+        </div>
+
+        <form class="contact__form" onsubmit="return false;">
+          <label>
+            Nombre
+            <input type="text" name="nombre" placeholder="Tu nombre" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="tucorreo@ejemplo.com" />
+          </label>
+          <label>
+            ¿En qué puedo ayudarte?
+            <textarea name="mensaje" rows="4" placeholder="Cuéntame brevemente..."></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+          <p class="contact__privacy">Tus datos se tratan con total confidencialidad.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">Valentín Bote · Psicólogo</span>
+      <nav class="footer__links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <p class="footer__copy">© 2026 Valentín Bote. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Botón flotante WhatsApp ===== -->
+  <a href="#contacto" class="wa" aria-label="Escríbeme por WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" fill="currentColor">
+      <path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-4.9.9.9-4.8-.3-.4c-1-1.6-1.5-3.4-1.5-5.3C4.6 9.7 9.7 4.6 16 4.6S27.4 9.7 27.4 16 22.3 24.8 16 24.8zm6.3-8.1c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.7-1.7-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.2.2 2.5 3.8 6 5.3.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2-.8 2.3-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.2-.6-.4z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
