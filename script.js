@@ -26,7 +26,7 @@
 
   // Si se agranda la ventana a escritorio, asegurar que quede cerrado
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 820) setOpen(false);
+    if (window.innerWidth > 980) setOpen(false);
   });
 })();
 
@@ -46,6 +46,7 @@
     ['.card'],
     ['.step'],
     ['.carousel'],
+    ['.partner'],
     ['.faq__item'],
     ['.location__info', '.location__map'],
     ['.contact__text', '.contact__form'],
