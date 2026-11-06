@@ -179,7 +179,7 @@ a { color: inherit; text-decoration: none; }
   /* La foto se recorta para mostrar solo a la persona (centro-superior). */
   /* Si el archivo aún no existe, se ve el degradado de reserva. */
   background:
-    url('assets/valentin-hero.png') center center / cover no-repeat,
+    url('assets/hero.jpg') center center / cover no-repeat,
     linear-gradient(135deg, #e7eee4, #d6e2e6);
 }
 
@@ -235,7 +235,7 @@ a { color: inherit; text-decoration: none; }
   border-radius: var(--radius); overflow: hidden;
   box-shadow: var(--shadow); aspect-ratio: 1 / 1;
   background:
-    url('assets/valentin-hero.png') center center / cover no-repeat,
+    url('assets/about.jpg') center center / cover no-repeat,
     linear-gradient(135deg, #dce8ea, #e3dcea);
 }
 .about__text h2 { font-size: clamp(2rem, 4vw, 2.7rem); margin-bottom: 20px; }
@@ -362,17 +362,17 @@ a { color: inherit; text-decoration: none; }
 /* ===== Colaboradores ===== */
 .partners { background: var(--white); }
 .partner {
-  display: grid; grid-template-columns: 280px 1fr; gap: 48px; align-items: center;
+  display: grid; grid-template-columns: 360px 1fr; gap: 44px; align-items: center;
   max-width: 900px; margin: 0 auto;
   background: var(--cream); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 36px;
 }
 .partner > * { min-width: 0; }
 .partner__photo {
-  aspect-ratio: 1 / 1; width: 100%;
+  aspect-ratio: 4 / 3; width: 100%;
   /* «El arco» de la guía: un extremo redondeado */
-  border-radius: 160px 160px var(--radius-sm) var(--radius-sm);
-  background: url('assets/octavi.jpg') center 30% / cover no-repeat, var(--cream-2);
+  border-radius: 120px 120px var(--radius-sm) var(--radius-sm);
+  background: url('assets/octavi-valentin.jpg') center center / cover no-repeat, var(--cream-2);
   box-shadow: var(--shadow-sm);
 }
 .partner__body h3 { font-size: 2rem; margin-bottom: 4px; }
@@ -382,6 +382,14 @@ a { color: inherit; text-decoration: none; }
   color: var(--sage-deep); margin-bottom: 18px;
 }
 .partner__body p:not(.partner__role) { color: var(--ink-soft); margin-bottom: 24px; }
+
+/* Franja de foto en «Cómo trabajo» */
+.process__photo {
+  margin: 56px auto 0; max-width: 900px;
+  aspect-ratio: 16 / 7; border-radius: var(--radius);
+  background: url('assets/consulta.jpg') center 40% / cover no-repeat, var(--cream-2);
+  box-shadow: var(--shadow);
+}
 
 /* ===== Ubicación ===== */
 .location { background: var(--white); }
@@ -399,7 +407,7 @@ a { color: inherit; text-decoration: none; }
   flex-shrink: 0;
   display: inline-flex; align-items: center; justify-content: center;
   width: 46px; height: 46px; border-radius: 12px;
-  background: var(--sage-soft); font-size: 1.25rem;
+  background: var(--sage-soft); color: var(--blue);
 }
 .location__row h3 { font-size: 1.05rem; margin-bottom: 3px; }
 .location__row p { color: var(--ink-soft); font-size: 0.95rem; }
@@ -526,7 +534,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 940px) {
   .hero__inner, .about__inner, .contact__inner { grid-template-columns: 1fr; gap: 52px; }
   .hero__media, .about__media { width: 100%; max-width: 380px; margin: 0 auto; }
-  .partner { grid-template-columns: 220px 1fr; gap: 32px; }
+  .partner { grid-template-columns: 280px 1fr; gap: 28px; }
   .values__grid { grid-template-columns: repeat(2, 1fr); gap: 30px; }
   .services__grid { grid-template-columns: repeat(2, 1fr); }
   .steps { grid-template-columns: repeat(2, 1fr); }
@@ -564,7 +572,7 @@ a { color: inherit; text-decoration: none; }
   .container { padding-left: 18px; padding-right: 18px; }
   .contact__form { padding: 24px; }
   .partner { grid-template-columns: 1fr; gap: 26px; padding: 26px; text-align: center; }
-  .partner__photo { max-width: 240px; margin: 0 auto; }
+  .partner__photo { max-width: 340px; margin: 0 auto; }
   .services__grid, .steps, .values__grid { grid-template-columns: 1fr; }
   .about__creds { grid-template-columns: 1fr; }
   /* 1 tarjeta visible en móvil */
