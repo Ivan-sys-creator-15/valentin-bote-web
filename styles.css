@@ -387,7 +387,7 @@ a { color: inherit; text-decoration: none; }
 .process__photo {
   margin: 56px auto 0; max-width: 900px;
   aspect-ratio: 16 / 7; border-radius: var(--radius);
-  background: url('assets/consulta.jpg') center 40% / cover no-repeat, var(--cream-2);
+  background: url('assets/consulta.jpg') center center / cover no-repeat, var(--cream-2);
   box-shadow: var(--shadow);
 }
 
